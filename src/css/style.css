@@ -25,6 +25,7 @@ to help you out.
 h1 {
 	color: var(--color-primary);
 }
+
 h2 {
 	color: black;
 }
@@ -42,6 +43,7 @@ h2 {
 	width: 100%;
 	display: flex;
 }
+
 .start button {
 	margin: 0 auto;
 }
@@ -50,23 +52,22 @@ h2 {
 	width: 100%;
 	display: flex;
 }
+
 .continue button {
 	margin-left: auto; 
 	margin-right: 0;
 	padding: 10px;
 }
 
-.step_1 {
 
-}
-
-.food_grid ul {
+.food-grid ul {
 	display: flex;
 	width: 100%;
 	list-style: none;
 	justify-content: space-evenly;
 }
-.food_grid li {
+
+.food-grid li {
 	max-width: 100%;
 	height: auto;
 	padding: 20px;
@@ -74,26 +75,27 @@ h2 {
 
 }
 
-.sub_food_grid ul{
+.sub-food-grid ul{
 	display: grid;
 	grid-template-columns: repeat(3, 1fr); /* 3 columns */
 	grid-template-rows: repeat(2, 1fr); /* 2 rows */
 	list-style: none; /* Remove default list styling */
 }
 
-.sub_food_grid li {
+.sub-food-grid li {
 	justify-content: center;
 	align-items: center;
 	padding: 20px;
 }
-.sub_food_grid_two ul{
+
+.sub-food-grid-two ul{
 	display: grid;
 	grid-template-columns: repeat(2, 1fr); /* 3 columns */
 	grid-template-rows: repeat(2, 1fr); /* 2 rows */
 	list-style: none; /* Remove default list styling */
 }
 
-.sub_food_grid_two li {
+.sub-food-grid-two li {
 	justify-content: center;
 	align-items: center;
 	padding: 20px;
